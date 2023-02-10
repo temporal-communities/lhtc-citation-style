@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0"
-  demote-non-dropping-particle="display-and-sort" page-range-format="chicago">
+  demote-non-dropping-particle="display-and-sort" page-range-format="expanded">
   <info>
     <title>Living Handbook of Temporal Communities (LHTC) [{{LOCALE}}]</title>
     <id>https://temporal-communities.de/</id>
