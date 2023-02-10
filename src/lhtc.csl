@@ -55,11 +55,11 @@
         <group prefix=", " delimiter=", ">
           <names variable="container-author" delimiter=", ">
             <label form="verb" suffix=" " />
-            <name and="text" delimiter=", " />
+            <name delimiter="/" />
           </names>
           <names variable="editor translator" delimiter=", ">
             <label form="verb-short" suffix=" " />
-            <name and="text" delimiter=", " />
+            <name delimiter="/" />
           </names>
         </group>
       </if>
@@ -107,7 +107,7 @@
   <macro name="contributors">
     <group delimiter=". ">
       <names variable="author">
-        <name and="text" name-as-sort-order="first" sort-separator=", " delimiter=", "
+        <name name-as-sort-order="all" sort-separator=", " delimiter="/"
           delimiter-precedes-last="always" />
         <label form="short" prefix=", " />
         <substitute>
