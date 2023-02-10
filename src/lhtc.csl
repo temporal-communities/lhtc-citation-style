@@ -428,7 +428,7 @@
   <macro name="container-title">
     <choose>
       <if type="chapter entry-dictionary entry-encyclopedia paper-conference" match="any">
-        <!-- <text macro="container-prefix" suffix=" " /> -->
+        <text macro="container-prefix" suffix=" " />
       </if>
     </choose>
     <choose>
