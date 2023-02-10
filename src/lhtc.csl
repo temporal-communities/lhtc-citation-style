@@ -288,7 +288,7 @@
       <if type="article-journal">
         <choose>
           <if variable="volume">
-            <text variable="volume" prefix=" " />
+            <text variable="volume" prefix=", " />
             <group prefix="/">
               <choose>
                 <if variable="issue">
@@ -353,7 +353,7 @@
       <if type="chapter entry-dictionary entry-encyclopedia paper-conference" match="any">
         <choose>
           <if variable="page">
-            <group prefix=". ">
+            <group prefix=", ">
               <!-- <text variable="volume" suffix=":" /> -->
               <group delimiter=" ">
                 <label variable="page" form="short" />
@@ -637,7 +637,7 @@
       </else-if>
       <else-if type="article-journal" match="any" />
       <else>
-        <group prefix=". " delimiter=", ">
+        <group prefix=". " delimiter=". ">
           <choose>
             <if type="thesis">
               <text variable="genre" text-case="capitalize-first" />
