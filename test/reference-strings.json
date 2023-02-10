@@ -10,17 +10,17 @@
     },
     {
       "key": "bode2020DataRepresentationComputational",
-      "string": "Bode, Katherine. ‘Data beyond Representation: From Computational Modelling to Performative Materiality’. Presented at the MLA Convention, Seattle, January 10, 2020. <a href=\"https://katherinebode.wordpress.com/home/mla-convention-2020/\">https://katherinebode.wordpress.com/home/mla-convention-2020/</a>."
+      "string": "Bode, Katherine. ‘Data beyond Representation: From Computational Modelling to Performative Materiality’. Presented at the MLA Convention, Seattle, January 10, 2020. https://katherinebode.wordpress.com/home/mla-convention-2020/."
     }
   ],
   "chapter": [
     {
       "key": "ellenzweig2017WhoAfraidInertia",
-      "string": "Ellenzweig, Sarah. ‘Who’s Afraid of Inertia? The Cartesian-Newtonian Legacy’. In <i>The New Politics of Materialism: History, Philosophy, Science</i>, ed. Sarah Ellenzweig/John H. Zammito. Abingdon, Oxon: Routledge, 2017, pp. 19–43."
+      "string": "Ellenzweig, Sarah. ‘Who’s Afraid of Inertia? The Cartesian-Newtonian Legacy’. In <i>The New Politics of Materialism: History, Philosophy, Science</i>, ed. Sarah Ellenzweig/John H. Zammito. London/New York: Routledge, 2017, pp. 19–43."
     },
     {
       "key": "flanders2016DataModeling",
-      "string": "Flanders, Julia/Jannidis, Fotis. ‘Data Modeling’. In <i>A New Companion to Digital Humanities</i>, ed. Susan Schreibman/Ray Siemens/John Unsworth. West Sussex: John Wiley &amp; Sons, 2016, pp. 229–237. <a href=\"https://doi.org/10.1002/9781118680605.ch16\">https://doi.org/10.1002/9781118680605.ch16</a>."
+      "string": "Flanders, Julia/Jannidis, Fotis. ‘Data Modeling’. In <i>A New Companion to Digital Humanities</i>, ed. Susan Schreibman/Ray Siemens/John Unsworth. Chichester: Wiley Blackwell, 2016, pp. 229–237. https://doi.org/10.1002/9781118680605.ch16."
     }
   ],
   "article-journal": [
@@ -33,6 +33,12 @@
     {
       "key": "staiti2018WhatModelHistory",
       "string": "Staiti, Alana Lauren. ‘What's in a Model? A History of Human Modeling for Computer Graphics and Animation, 1961-1988’. PhD Dissertation. Cornell University, December 2018."
+    }
+  ],
+  "report": [
+    {
+      "key": "johnston2018TemporalCommunitiesDoing",
+      "string": "Johnston, Andrew James/Traninger, Anita. <i>Temporal Communities: Doing Literature in a Global Perspective</i>. Full Proposal, funding period 2019–2025. Berlin: Freie Universität Berlin, 2018."
     }
   ]
 }
