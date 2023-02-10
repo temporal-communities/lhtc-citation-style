@@ -42,12 +42,12 @@
       <if type="chapter entry-dictionary entry-encyclopedia paper-conference" match="none">
         <group delimiter=". ">
           <names variable="editor translator" delimiter=". ">
-            <label form="verb" text-case="capitalize-first" suffix=" " />
-            <name and="text" delimiter=", " />
+            <label form="verb-short" text-case="capitalize-first" suffix=" " />
+            <name delimiter="/" />
           </names>
           <names variable="director" delimiter=". ">
-            <label form="verb" text-case="capitalize-first" suffix=" " />
-            <name and="text" delimiter=", " />
+            <label form="verb-short" text-case="capitalize-first" suffix=" " />
+            <name delimiter="/" />
           </names>
         </group>
       </if>
@@ -97,7 +97,7 @@
       </if>
     </choose>
     <names variable="recipient" delimiter=", ">
-      <label form="verb" prefix=" " text-case="lowercase" suffix=" " />
+      <label form="verb-short" prefix=" " text-case="lowercase" suffix=" " />
       <name and="text" delimiter=", " />
     </names>
   </macro>
@@ -139,7 +139,7 @@
   </macro>
   <macro name="interviewer">
     <names variable="interviewer" delimiter=", ">
-      <label form="verb" prefix=" " text-case="capitalize-first" suffix=" " />
+      <label form="verb-short" prefix=" " text-case="capitalize-first" suffix=" " />
       <name and="text" delimiter=", " />
     </names>
   </macro>
