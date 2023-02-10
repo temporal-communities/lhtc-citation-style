@@ -1,72 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="display-and-sort" page-range-format="chicago">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0"
+  demote-non-dropping-particle="display-and-sort" page-range-format="chicago">
   <info>
-    <title>Chicago Manual of Style 17th edition (author-date)</title>
-    <id>http://www.zotero.org/styles/chicago-author-date</id>
+    <title>Living Handbook of Temporal Communities (LHTC) [{{LOCALE}}]</title>
+    <id>https://temporal-communities.de/</id>
     <link href="http://www.zotero.org/styles/chicago-author-date" rel="self" />
     <link href="http://www.chicagomanualofstyle.org/tools_citationguide.html" rel="documentation" />
     <author>
-      <name>Julian Onions</name>
-      <email>julian.onions@gmail.com</email>
+      <name>Rebecca Hardie</name>
+      <email>r.hardie@fu-berlin.de</email>
     </author>
     <contributor>
-      <name>Sebastian Karcher</name>
-    </contributor>
-    <contributor>
-      <name>Richard Karnesky</name>
-      <email>karnesky+zotero@gmail.com</email>
-      <uri>http://arc.nucapt.northwestern.edu/Richard_Karnesky</uri>
-    </contributor>
-    <contributor>
-      <name>Andrew Dunning</name>
-      <email>andrew.dunning@utoronto.ca</email>
-      <uri>https://orcid.org/0000-0003-0464-5036</uri>
-    </contributor>
-    <contributor>
-      <name>Matthew Roth</name>
-      <email>matthew.g.roth@yale.edu</email>
-      <uri> https://orcid.org/0000-0001-7902-6331</uri>
-    </contributor>
-    <contributor>
-      <name>Brenton M. Wiernik</name>
+      <name>Viktor J. Illmer</name>
+      <email>v.illmer@fu-berlin.de</email>
     </contributor>
     <category citation-format="author-date" />
     <category field="generic-base" />
-    <summary>The author-date variant of the Chicago style</summary>
-    <updated>2022-02-06T02:20:47+00:00</updated>
-    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+    <summary>Style of the Living Handbook of Temporal Communities</summary>
+    <updated>2023-01-12</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a
+      Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
     <terms>
       <term name="editor" form="verb-short">ed.</term>
       <term name="container-author" form="verb">by</term>
       <term name="translator" form="verb-short">trans.</term>
-      <term name="editortranslator" form="verb">edited and translated by</term>
+      <term name="editortranslator" form="verb">ed. and trans.</term>
       <term name="translator" form="short">trans.</term>
-    </terms>
-  </locale>
-  <locale xml:lang="pt-PT">
-    <terms>
-      <term name="accessed">acedido a</term>
-    </terms>
-  </locale>
-  <locale xml:lang="pt">
-    <terms>
-      <term name="editor" form="verb">editado por</term>
-      <term name="editor" form="verb-short">ed.</term>
-      <term name="container-author" form="verb">por</term>
-      <term name="translator" form="verb-short">traduzido por</term>
-      <term name="translator" form="short">trad.</term>
-      <term name="editortranslator" form="verb">editado e traduzido por</term>
-      <term name="and">e</term>
-      <term name="no date" form="long">s.d</term>
-      <term name="no date" form="short">s.d.</term>
-      <term name="in">em</term>
-      <term name="at">em</term>
-      <term name="by">por</term>
-      <!-- PUNCTUATION -->
-      <term name="open-quote">"</term>
-      <term name="close-quote">"</term>
+      <term name="edition" form="short">edn.</term>
+      <term name="open-quote">‘</term>
+      <term name="close-quote">’</term>
     </terms>
   </locale>
   <macro name="secondary-contributors">
@@ -94,7 +58,7 @@
             <name and="text" delimiter=", " />
           </names>
           <names variable="editor translator" delimiter=", ">
-            <label form="verb" suffix=" " />
+            <label form="verb-short" suffix=" " />
             <name and="text" delimiter=", " />
           </names>
         </group>
@@ -103,13 +67,15 @@
   </macro>
   <macro name="editor">
     <names variable="editor">
-      <name name-as-sort-order="first" and="text" sort-separator=", " delimiter=", " delimiter-precedes-last="always" />
+      <name name-as-sort-order="first" and="text" sort-separator=", " delimiter=", "
+        delimiter-precedes-last="always" />
       <label form="short" prefix=", " />
     </names>
   </macro>
   <macro name="translator">
     <names variable="translator">
-      <name name-as-sort-order="first" and="text" sort-separator=", " delimiter=", " delimiter-precedes-last="always" />
+      <name name-as-sort-order="first" and="text" sort-separator=", " delimiter=", "
+        delimiter-precedes-last="always" />
       <label form="short" prefix=", " />
     </names>
   </macro>
@@ -141,7 +107,8 @@
   <macro name="contributors">
     <group delimiter=". ">
       <names variable="author">
-        <name and="text" name-as-sort-order="first" sort-separator=", " delimiter=", " delimiter-precedes-last="always" />
+        <name and="text" name-as-sort-order="first" sort-separator=", " delimiter=", "
+          delimiter-precedes-last="always" />
         <label form="short" prefix=", " />
         <substitute>
           <names variable="editor" />
@@ -185,7 +152,9 @@
         <if type="graphic report" match="any">
           <text macro="archive" />
         </if>
-        <else-if type="article-journal bill book chapter legal_case legislation motion_picture paper-conference" match="none">
+        <else-if
+          type="article-journal bill book chapter legal_case legislation motion_picture paper-conference"
+          match="none">
           <text macro="archive" />
         </else-if>
       </choose>
@@ -216,6 +185,16 @@
       </choose>
     </group>
   </macro>
+  <macro name="title-translation">
+    <!-- Title translation in parentheses if available for current locale -->
+    <choose>
+      <if variable="title-{{LOCALE}}">
+        <group prefix=" [" suffix="]" delimiter=" ">
+          <text variable="title-{{LOCALE}}" />
+        </group>
+      </if>
+    </choose>
+  </macro>
   <macro name="title">
     <choose>
       <if variable="title" match="none">
@@ -227,6 +206,7 @@
       </if>
       <else-if type="bill book graphic legislation motion_picture song" match="any">
         <text variable="title" text-case="title" font-style="italic" />
+        <text macro="title-translation" />
         <group prefix=" (" suffix=")" delimiter=" ">
           <text term="version" />
           <text variable="version" />
@@ -237,8 +217,10 @@
           <if variable="reviewed-title">
             <group delimiter=". ">
               <text variable="title" text-case="title" quotes="true" />
+              <text macro="title-translation" />
               <group delimiter=", ">
-                <text variable="reviewed-title" text-case="title" font-style="italic" prefix="Review of " />
+                <text variable="reviewed-title" text-case="title" font-style="italic"
+                  prefix="Review of " />
                 <names variable="reviewed-author">
                   <label form="verb-short" text-case="lowercase" suffix=" " />
                   <name and="text" delimiter=", " />
@@ -259,9 +241,11 @@
       </else-if>
       <else-if type="legal_case interview patent" match="any">
         <text variable="title" />
+        <text macro="title-translation" />
       </else-if>
       <else>
         <text variable="title" text-case="title" quotes="true" />
+        <text macro="title-translation" />
       </else>
     </choose>
   </macro>
@@ -301,7 +285,7 @@
         <choose>
           <if variable="volume">
             <text variable="volume" prefix=" " />
-            <group prefix=" (" suffix=")">
+            <group prefix="/">
               <choose>
                 <if variable="issue">
                   <text variable="issue" />
@@ -335,7 +319,8 @@
         <text variable="container-title" prefix=" " />
         <text variable="page" prefix=" " />
       </else-if>
-      <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
+      <else-if type="bill book graphic legal_case legislation motion_picture report song"
+        match="any">
         <group prefix=". " delimiter=". ">
           <group>
             <text term="volume" form="short" text-case="capitalize-first" suffix=" " />
@@ -405,7 +390,8 @@
         <choose>
           <if locator="page" match="none">
             <choose>
-              <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
+              <if type="bill book graphic legal_case legislation motion_picture report song"
+                match="any">
                 <choose>
                   <if variable="volume">
                     <group>
@@ -424,7 +410,8 @@
               </else>
             </choose>
           </if>
-          <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
+          <else-if type="bill book graphic legal_case legislation motion_picture report song"
+            match="any">
             <number variable="volume" form="numeric" suffix=":" />
           </else-if>
         </choose>
@@ -438,7 +425,7 @@
   <macro name="container-title">
     <choose>
       <if type="chapter entry-dictionary entry-encyclopedia paper-conference" match="any">
-        <text macro="container-prefix" suffix=" " />
+        <!-- <text macro="container-prefix" suffix=" " /> -->
       </if>
     </choose>
     <choose>
@@ -467,10 +454,19 @@
     <choose>
       <if variable="issued">
         <group delimiter=" ">
-          <date variable="original-date" form="text" date-parts="year" prefix="(" suffix=")" />
-          <date variable="issued">
-            <date-part name="year" />
-          </date>
+          <choose>
+            <if type="article-journal article-newspaper" match="any">
+              <date variable="issued" prefix=" (" suffix=")">
+                <date-part name="year" />
+              </date>
+            </if>
+            <else>
+              <date variable="issued" prefix=", ">
+                <date-part name="year" />
+              </date>
+            </else>
+          </choose>
+          <date variable="original-date" form="text" date-parts="year" prefix="[" suffix="]" />
         </group>
       </if>
       <else-if variable="status">
@@ -505,6 +501,16 @@
       <date-part name="day" prefix=" " />
     </date>
   </macro>
+  <macro name="collection-title-translation">
+    <!-- Collection title translation in parentheses if available for current locale -->
+    <choose>
+      <if variable="collection-title-{{LOCALE}}">
+        <group prefix=" [" suffix="]" delimiter=" ">
+          <text variable="collection-title-{{LOCALE}}" />
+        </group>
+      </if>
+    </choose>
+  </macro>
   <macro name="collection-title">
     <choose>
       <if match="none" type="article-journal">
@@ -512,12 +518,14 @@
           <if match="none" is-numeric="collection-number">
             <group delimiter=", ">
               <text variable="collection-title" text-case="title" />
+              <text macro="collection-title-translation" />
               <text variable="collection-number" />
             </group>
           </if>
           <else>
             <group delimiter=" ">
               <text variable="collection-title" text-case="title" />
+              <text macro="collection-title-translation" />
               <text variable="collection-number" />
             </group>
           </else>
@@ -602,7 +610,8 @@
       <else-if type="patent">
         <group delimiter=", " prefix=", ">
           <group delimiter=" ">
-            <!--Needs Localization-->
+            <!--Needs
+            Localization-->
             <text value="filed" />
             <date variable="submitted" form="text" />
           </group>
@@ -612,7 +621,8 @@
                 <text term="and" />
               </if>
             </choose>
-            <!--Needs Localization-->
+            <!--Needs
+            Localization-->
             <text value="issued" />
             <date variable="issued" form="text" />
           </group>
@@ -631,7 +641,9 @@
       </else>
     </choose>
   </macro>
-  <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" givenname-disambiguation-rule="primary-name" collapse="year" after-collapse-delimiter="; ">
+  <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true"
+    disambiguate-add-names="true" disambiguate-add-givenname="true"
+    givenname-disambiguation-rule="primary-name" collapse="year" after-collapse-delimiter="; ">
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
         <choose>
@@ -641,7 +653,8 @@
               <text macro="date-in-text" />
             </group>
           </if>
-          <!---comma before forthcoming and n.d.-->
+          <!---comma
+          before forthcoming and n.d.-->
           <else>
             <group delimiter=", ">
               <text macro="contributors-short" />
@@ -653,7 +666,8 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="11" et-al-use-first="7" subsequent-author-substitute="&#8212;&#8212;&#8212;" entry-spacing="0">
+  <bibliography hanging-indent="true" et-al-min="11" et-al-use-first="7"
+    subsequent-author-substitute="&#8212;&#8212;&#8212;" entry-spacing="0">
     <sort>
       <key macro="contributors" />
       <key variable="issued" />
@@ -662,7 +676,6 @@
     <layout suffix=".">
       <group delimiter=". ">
         <text macro="contributors" />
-        <text macro="date" />
         <text macro="title" />
       </group>
       <text macro="description" />
@@ -675,6 +688,7 @@
       <text macro="locators" />
       <text macro="collection-title" prefix=". " />
       <text macro="issue" />
+      <text macro="date" />
       <text macro="locators-article" />
       <text macro="access" prefix=". " />
     </layout>
