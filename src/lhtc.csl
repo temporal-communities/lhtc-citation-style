@@ -26,7 +26,7 @@
       <term name="editor" form="verb-short">ed.</term>
       <term name="container-author" form="verb">by</term>
       <term name="translator" form="verb-short">trans.</term>
-      <term name="editortranslator" form="verb">ed. and trans.</term>
+      <term name="editortranslator" form="verb-short">ed. and trans.</term>
       <term name="translator" form="short">trans.</term>
       <term name="edition" form="short">edn.</term>
       <term name="open-quote">‘</term>
