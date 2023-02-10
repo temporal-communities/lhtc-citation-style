@@ -18,8 +18,11 @@
     <category field="generic-base" />
     <summary>Style of the Living Handbook of Temporal Communities</summary>
     <updated>{{TIMESTAMP}}</updated>
-    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a
-      Creative Commons Attribution-ShareAlike 3.0 License</rights>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">
+      This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License.
+      Based on the Chicago author-date style by Julian Onions et al.
+      (http://www.zotero.org/styles/chicago-author-date)
+    </rights>
   </info>
   <locale xml:lang="en">
     <style-options punctuation-in-quote="false" />
