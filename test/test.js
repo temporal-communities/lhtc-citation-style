@@ -31,8 +31,6 @@ const bib = example
 // Convert to object with first element as key
 const bibObj = Object.fromEntries(bib)
 
-console.log(bibObj)
-
 // Read reference strings
 const referenceStrings = JSON.parse(readFileSync('./test/reference-strings.json', 'utf8'))
 
