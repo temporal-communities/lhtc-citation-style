@@ -16,7 +16,7 @@ for (const locale of LOCALES) {
 
   const replaced = file
     .replaceAll(LOCALE_PLACEHOLDER, locale)
-    .replaceAll(TIMESTAMP_PLACEHOLDER, new Date().toISOString().substring(0, 10))
+    .replaceAll(TIMESTAMP_PLACEHOLDER, new Date().toISOString())
 
   fs.writeFileSync(path.join(dist, `lhtc-${locale}.csl`), replaced)
 }
