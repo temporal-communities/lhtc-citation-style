@@ -8,7 +8,8 @@
   },
   "scripts": {
     "build": "node src/index.js",
-    "test": "npm run build && npx mocha"
+    "test": "npm run build && npx mocha",
+    "test:inline": "npm run build && npx mocha --inline-diffs"
   },
   "author": "",
   "license": "ISC",
