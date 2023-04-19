@@ -42,6 +42,14 @@ describe("Bibliography", function () {
       for (const obj of refObjs) {
         const bibkey = obj.key
         const string = obj.string
+
+        // If --verbose
+        if (process.argv.includes("--verbose")) {
+          console.log("  " + bibkey + ":")
+          console.log("    " + string)
+          console.log()
+        }
+
         it(bibkey, function () {
           equal(bibObj[bibkey], string)
         })
