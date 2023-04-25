@@ -361,7 +361,6 @@
             <group prefix=", ">
               <!-- <text variable="volume" suffix=":" /> -->
               <group delimiter=" ">
-                <label variable="page" form="short" />
                 <text variable="page" />
               </group>
             </group>
