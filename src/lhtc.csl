@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0"
   demote-non-dropping-particle="display-and-sort" page-range-format="expanded">
   <info>
@@ -7,21 +8,22 @@
     <!-- <link href="http://www.zotero.org/styles/chicago-author-date" rel="self" /> -->
     <link href="https://wikis.fu-berlin.de/display/exctc/LHTC%3A+Zotero" rel="documentation" />
     <author>
-      <name>Rebecca Hardie</name>
-      <email>r.hardie@fu-berlin.de</email>
-    </author>
-    <contributor>
       <name>Viktor J. Illmer</name>
       <email>v.illmer@fu-berlin.de</email>
+    </author>
+    <contributor>
+      <name>Rebecca Hardie</name>
+      <email>r.hardie@fu-berlin.de</email>
     </contributor>
     <category citation-format="author-date" />
     <category field="generic-base" />
-    <summary>Style of the Living Handbook of Temporal Communities</summary>
+    <summary>Citation style of the Living Handbook of Temporal Communities</summary>
     <updated>{{TIMESTAMP}}</updated>
-    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">
-      This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License.
-      Based on the Chicago author-date style by Julian Onions et al.
-      (http://www.zotero.org/styles/chicago-author-date)
+    <rights license="http://creativecommons.org/licenses/by-sa/4.0/">
+      This work is adapted from chicago-author-date.csl
+      (https://github.com/citation-style-language/styles/blob/master/chicago-author-date.csl) by
+      Julian Onions, used under CC BY-SA 3.0.
+      This work is licensed under CC BY-SA 4.0 by Viktor J. Illmer and Rebecca Hardie.
     </rights>
   </info>
   <locale xml:lang="en">
