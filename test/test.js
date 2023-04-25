@@ -12,9 +12,11 @@ config.templates.add(templateName, template)
 // Load test data
 // Relative to script directory
 const data = readFileSync("./test/export.json", "utf8")
+// Access data.items and re-stringify (necessary for Zotero CSL API)
+const dataString = JSON.stringify(JSON.parse(data).items)
 
-const example = new Cite(data)
-const bib = example
+const cite = new Cite(dataString)
+const bib = cite
   .format("bibliography", {
     format: "html",
     template: templateName,
@@ -28,8 +30,9 @@ const bib = example
     return entry
   })
 
-// Convert to object with first element as key
+// Convert to object with first element as id
 const bibObj = Object.fromEntries(bib)
+console.debug({ bibObj })
 
 // Read reference strings
 const referenceStrings = JSON.parse(readFileSync("./test/reference-strings.json", "utf8"))
@@ -40,18 +43,18 @@ describe("Bibliography", function () {
   for (const [category, refObjs] of Object.entries(referenceStrings)) {
     describe(category, function () {
       for (const obj of refObjs) {
-        const bibkey = obj.key
+        const id = obj.id
         const string = obj.string
 
         // If --verbose
         if (process.argv.includes("--verbose")) {
-          console.log("  " + bibkey + ":")
+          console.log("  " + id + ":")
           console.log("    " + string)
           console.log()
         }
 
-        it(bibkey, function () {
-          equal(bibObj[bibkey], string)
+        it(id, function () {
+          equal(bibObj[id], string)
         })
       }
     })

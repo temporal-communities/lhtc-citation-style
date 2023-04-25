@@ -30,6 +30,9 @@ The compiled CSL files for all locales will be located in the `dist` folder.
 Test cases are defined in `test/reference-strings.json`.
 These strings are compared to the output of the CSL processor for the bibliography items in `test/export.json`.
 
+The CSL export may be fetched automatically using `npm run test:fetch`.
+Export an appropriately authorised API key as `ZOTERO_API_KEY` in `.env`.
+
 ### Running tests
 
 Mocha is used for testing. To run the tests, run `npm run test`.
