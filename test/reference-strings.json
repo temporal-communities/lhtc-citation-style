@@ -1,19 +1,5 @@
 {
-  "book": [
-    {
-      "id": "11736692/5YW75WFW",
-      "string": "Agamben, Giorgio. <i>What Is an Apparatus? And Other Essays</i>. Trans. David Kishik/Stefan Pedatella. Stanford: Stanford University Press, 2009. https://doi.org/10.1515/9781503600041."
-    },
-    {
-      "id": "11736692/UMVUBEQ8",
-      "string": "Barad, Karen. <i>Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning</i>. Durham, NC: Duke University Press, 2007."
-    },
-    {
-      "id": "11736692/57N9A7KG",
-      "string": "Bode, Katherine. ‘Data beyond Representation: From Computational Modelling to Performative Materiality’. Presented at the MLA Convention, Seattle, January 10, 2020. https://katherinebode.wordpress.com/home/mla-convention-2020/."
-    }
-  ],
-  "chapter": [
+  "Article in Collection of Essays": [
     {
       "id": "11736692/LX75SY3H",
       "string": "Ellenzweig, Sarah. ‘Who’s Afraid of Inertia? The Cartesian-Newtonian Legacy’. In <i>The New Politics of Materialism: History, Philosophy, Science</i>, ed. Sarah Ellenzweig/John H. Zammito. London/New York: Routledge, 2017, 19–43. https://doi.org/10.4324/9781315268477."
@@ -23,22 +9,53 @@
       "string": "Flanders, Julia/Jannidis, Fotis. ‘Data Modeling’. In <i>A New Companion to Digital Humanities</i>, ed. Susan Schreibman/Ray Siemens/John Unsworth. Chichester: Wiley Blackwell, 2016, 229–237. https://doi.org/10.1002/9781118680605.ch16."
     }
   ],
-  "article-journal": [
+  "Audiovisual Work": [],
+  "Blog Post/Website": [],
+  "Book or Single Volume Edition": [],
+  "Book Chapter": [],
+  "Conference Presentation": [
     {
-      "id": "11736692/Y84FEW63",
-      "string": "So, Richard Jean. ‘All Models Are Wrong’. <i>PMLA</i>, 132/3 (2017): 668–673. https://doi.org/10.1632/pmla.2017.132.3.668."
+      "id": "11736692/57N9A7KG",
+      "string": "Bode, Katherine. ‘Data beyond Representation: From Computational Modelling to Performative Materiality’. Presented at the MLA Convention, Seattle, January 10, 2020. https://katherinebode.wordpress.com/home/mla-convention-2020/."
     }
   ],
-  "thesis": [
+  "Dissertation/Thesis": [
     {
       "id": "11736692/SMVHD8Y2",
       "string": "Staiti, Alana Lauren. ‘What’s in a Model? A History of Human Modeling for Computer Graphics and Animation, 1961–1988’. PhD Dissertation. Cornell University, 2018. https://doi.org/10.7298/xzzc-fq69."
     }
   ],
-  "report": [
+  "Multivolume Edition": [],
+  "Encyclopaedia/Dictionary": [],
+  "Exhibition": [],
+  "Journal Article": [
+    {
+      "id": "11736692/Y84FEW63",
+      "string": "So, Richard Jean. ‘All Models Are Wrong’. <i>PMLA</i>, 132/3 (2017): 668–673. https://doi.org/10.1632/pmla.2017.132.3.668."
+    }
+  ],
+  "Letter": [],
+  "Monograph": [
+    {
+      "id": "11736692/UMVUBEQ8",
+      "string": "Barad, Karen. <i>Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning</i>. Durham, NC: Duke University Press, 2007."
+    }
+  ],
+  "Newspaper Article in Print from one, two or more Authors": [],
+  "Newspaper Article from a Website from one, two or more Authors": [],
+  "Public Hearing": [],
+  "Report": [
     {
       "id": "11736692/S2KNSJPI",
       "string": "Johnston, Andrew James/Traninger, Anita. <i>Temporal Communities: Doing Literature in a Global Perspective</i>. Full Proposal, funding period 2019–2025. Berlin: Freie Universität Berlin, 2018."
     }
-  ]
+  ],
+  "Translated Work": [
+    {
+      "id": "11736692/5YW75WFW",
+      "string": "Agamben, Giorgio. <i>What Is an Apparatus? And Other Essays</i>. Trans. David Kishik/Stefan Pedatella. Stanford: Stanford University Press, 2009. https://doi.org/10.1515/9781503600041."
+    }
+  ],
+  "Post on Social Media": [],
+  "TikTok": []
 }
