@@ -9,10 +9,33 @@
       "string": "Flanders, Julia/Jannidis, Fotis. ‘Data Modeling’. In <i>A New Companion to Digital Humanities</i>, ed. Susan Schreibman/Ray Siemens/John Unsworth. Chichester: Wiley Blackwell, 2016, 229–237. https://doi.org/10.1002/9781118680605.ch16."
     }
   ],
-  "Audiovisual Work": [],
+  "Audiovisual Work": [
+    {
+      "id": "11736692/9X28QEUV",
+      "string": "Liu, <i>A. Abschlusskeynote DHd2020 | Humans in the Loop</i>. 19 March 2020. YouTube. https://www.youtube.com/watch?v=lnfeOUBCi3s"
+    },
+    {
+      "id": "11736692/57N9A7KG",
+      "string": "Bode, Katherine. <i>Data beyond representation: From computational modelling to performative materiality. 10 January 2020</i>. Katherine Bode. https://katherinebode.wordpress.com/home/mla-convention-2020/"
+    },
+    {
+      "id": "11736692/QY4FYWHL",
+      "string": "Gardner, Howard. Project Zero. <i>Howard Gardner Discusses Multiple Intelligences - Blackboard BbWorld 2016 HD</i>. 19 July 2016. Youtube. https://www.youtube.com/watch?v=8N2pnYne0ZA&t=299s "
+    }
+  ],
   "Blog Post/Website": [],
-  "Book or Single Volume Edition": [],
-  "Book Chapter": [],
+  "Book or Single Volume Edition": [
+    {
+      "id": "11736692/WASG4UPS",
+      "string": "Epictetus. <i>Dissertationes</i>. Ed. Heinrich Schenkl. Stuttgart: Teubner, 1916."
+    }
+  ],
+  "Book Chapter": [
+    {
+      "id": "11736692/VNESZ64J",
+      "string": "Bogdanow, Fanni. ‘The Suite du Merlin and the Post-Vulgate Roman du Graal’. In <i>Arthurian Literature in the Middle Ages: A Collaborative History</i>, ed. Roger Sherman Loomis. 3rd ed. Oxford: Clarendon Press, 1959, 325–335."
+    }
+  ],
   "Conference Presentation": [
     {
       "id": "11736692/57N9A7KG",
@@ -23,31 +46,122 @@
     {
       "id": "11736692/SMVHD8Y2",
       "string": "Staiti, Alana Lauren. ‘What’s in a Model? A History of Human Modeling for Computer Graphics and Animation, 1961–1988’. PhD Dissertation. Cornell University, 2018. https://doi.org/10.7298/xzzc-fq69."
+    },
+    {
+      "id": "11736692/4JCCZXK3",
+      "string": "Vejmelka, Marcel. <i>Das Werk Jorge Amados in der DDR und der BRD: Ein Vergleich der Rezeption und der Übersetzungen</>. PhD Dissertation, Humboldt Universität zu Berlin, 2000."
+    },
+    {
+      "id": "11736692/KMRNVMCI",
+      "string": "Denton, Chad Benjamin. <i>Metal to Munitions: Requisitions and Resentment in Wartime France</i>. PhD Dissertation, University of California, Berkeley, 2009. https://www.proquest.com/dissertations-theses/metal-munitions-requisitions-resentment-wartime/docview/506818898/se-2"
     }
   ],
-  "Multivolume Edition": [],
-  "Encyclopaedia/Dictionary": [],
-  "Exhibition": [],
+  "Multivolume Edition": [
+    {
+      "id": "11736692/3X5X64NN",
+      "string": "Hofmannsthal, Hugo von. <i>Sämtliche Werke</i>. Ed. and trans. Rudolf Hirsch et al. 40 vols. Frankfurt a. M.: Fischer, 1986."
+    },
+    {
+      "id": "11736692/BRHMASW5",
+      "string": "Voltaire. <i>Oeuvres complètes</i>. Vol. 19, Dictionnaire philosophique portatif. Paris: Garnier, 1879."
+    }
+  ],
+  "Encyclopaedia/Dictionary": [
+    {
+      "id": "11736692/YZYFG48I",
+      "string": "Agapkina, Tat’jana Alekseevna. ‘IL’Ja’. <i>Slavjanskaja mifologija: Ėnciklopedičeskij slovar’</i>. Moscow: Ėllis Lak, 1995, 204–206."
+    },
+    {
+      "id": "11736692/8MFMWVPA",
+      "string": "Buchanan, Ian. A Dictionary of Critical Theory, 2nd ed. Oxford: Oxford University Press, 2018.  https://doi.org/10.1093/acref/9780198794790.001.0001"
+    },
+    {
+      "id": "11736692/BR82L3DE",
+      "string": "Weimar, Klaus. ‘Literatur’. <i>Reallexikon der deutschen Literaturwissenschaft</i>, Vol. 2. Ed. Georg Braungart et al. Berlin: de Gruyter, 2007, 443–448."
+    }
+  ],
+  "Exhibition": [
+    {
+      "id": "11736692/6DRQ5UJ5",
+      "string": "Beuys, Joseph. <i>‘Wie man dem toten Hasen die Bilder erklärt’</i>. Düsseldorf: Galerie Schmela, 1965"
+    }
+  ],
   "Journal Article": [
+    {
+      "id": "11736692/BSRSW6QY",
+      "string": "Χατζηβασιλείου, Βαγγέλης. ‘Το μεσοπολεμικό μυθιστόρημα’ (‘The Interwar Novel’). <i>The Books' Journal</i>, 101 (2019): 96."
+    },
+    {
+      "id": "11736692/M2WZGXKS",
+      "string": "Canal, Héctor. ‘“Unterhändler ausländischer Dichter”: Johann Diederich Gries’ Calderón-Übersetzungen’. Zeitschrift für Germanistik, 29/2 (2019): 304–327."
+    },
+    {
+      "id": "11736692/7G48L3KF",
+      "string": "Cook, Robert F. ‘Baudouin de Sebourc: Un poème édifiant?’. <i>Olifant</i>, 14 (1989): 115–135."
+    },
     {
       "id": "11736692/Y84FEW63",
       "string": "So, Richard Jean. ‘All Models Are Wrong’. <i>PMLA</i>, 132/3 (2017): 668–673. https://doi.org/10.1632/pmla.2017.132.3.668."
     }
   ],
-  "Letter": [],
+  "Letter": [
+    {
+      "id": "11736692/7Z4TDR7M",
+      "string": "Strausfeld, Michi. <i>Letter of Michi Strausfeld to Jürgen Dormagen</i>. 9 September 1997. Siegfried-Unseld-Archiv Suhrkamp, Deutsches Literaturarchiv Marbach."
+    },
+    {
+      "id": "11736692/2NKGUT8E",
+      "string": "Pitman, Robert. <i>Robert Pitman’s Correspondence with Henry Russel jr</i>., 2 March 1840. Bodleian Library, Oxford."
+    }
+  ],
   "Monograph": [
     {
       "id": "11736692/UMVUBEQ8",
       "string": "Barad, Karen. <i>Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning</i>. Durham, NC: Duke University Press, 2007."
+    },
+    {
+      "id": "11736692/UMVUBEQ8",
+      "string": "Frisch, Karl von. <i>Tanzsprache und Orientierung der Bienen</i>. Berlin: Springer, 2013."
     }
   ],
-  "Newspaper Article in Print from one, two or more Authors": [],
-  "Newspaper Article from a Website from one, two or more Authors": [],
-  "Public Hearing": [],
+  "Newspaper Article in Print from one, two or more Authors": [
+    {
+      "id": "11736692/NIPZ523E",
+      "string": "Meade, Marion. ‘Lights! Cameras ! Women!’ , <i>The New York Times</i> (25 April 1971): 11."
+    },
+    {
+      "id": "11736692/4VZNTNHM",
+      "string": "Ilitschewski, Alexander/Reif, Ruth Renée. ‘“Die bittere Ironie utopischer Ideen”: Alexander Ilitschewski über “Der Perser” sowie über Religion, Fanatismus und Ressentiment’, <i>Neue Zürcher Zeitung</i> (13 February 2016): 27–28."
+    },
+    {
+      "id": "11736692/ECCF7HG7",
+      "string": "Der Velde, Carl Franz van. ‘Arwed Gyllensterna: A tale of the early part of the eighteenth century’, <i>The Literary Gazette and Journal of Belles Lettres, Arts, Sciences & C</i> (1827): 120."
+    }
+  ],
+  "Newspaper Article from a Website from one, two or more Authors": [
+    {
+      "id": "11736692/5X7PRLC9",
+      "string": "Amette, Jacques-Pierre. ‘Thé et désespoir’, <i>Le Point</i> (8 October 1989): 18–25."
+    }
+  ],
+  "Public Hearing": [
+    {
+      "id": "11736692/S8JBKKIR",
+      "string": "The Senate of the United States of America/Subcommittee on international finance and monetary policy of the committee on banking, housing, and urban affairs. <i>Human-rights consequences of the proposed trans-Siberian natural gas pipeline</i>. 18 June 1982. https://www.osti.gov/biblio/6209167"
+    },
+    {
+      "id": "11736692/WWALDUS7",
+      "string": "The Senate of the United States of America/Committee on Banking, Housing, and Urban Affairs. <i>Energy capital requirements. 1 January 1978</i>. https://www.osti.gov/biblio/6438262"
+    }
+  ],
   "Report": [
     {
       "id": "11736692/S2KNSJPI",
       "string": "Johnston, Andrew James/Traninger, Anita. <i>Temporal Communities: Doing Literature in a Global Perspective</i>. Full Proposal, funding period 2019–2025. Berlin: Freie Universität Berlin, 2018."
+    },
+    {
+      "id": "11736692/I5DRC9NC",
+      "string": "Börsenverein des Deutschen Buchhandels. <i>Börsenblatt für den Deutschen Buchhandel: Lateinamerikanische Autoren bei claassen</i>. Frankfurt am Main, 1976."
     }
   ],
   "Translated Work": [
