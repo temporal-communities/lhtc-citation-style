@@ -45,6 +45,7 @@ describe("Bibliography", function () {
       for (const obj of refObjs) {
         const id = obj.id
         const string = obj.string
+        const heading = `${id}: ${string.split(".")[0]}`
 
         // If --verbose
         if (process.argv.includes("--verbose")) {
@@ -53,7 +54,7 @@ describe("Bibliography", function () {
           console.log()
         }
 
-        it(id, function () {
+        it(heading, function () {
           equal(bibObj[id], string)
         })
       }
