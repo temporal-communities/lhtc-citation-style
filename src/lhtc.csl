@@ -213,7 +213,9 @@
           </if>
         </choose>
       </if>
-      <else-if type="bill book graphic legislation motion_picture song report" match="any">
+      <else-if
+        type="bill book graphic legislation motion_picture song report thesis personal_communication"
+        match="any">
         <text variable="title" text-case="title" font-style="italic" />
         <text macro="title-translation" />
         <group prefix=" (" suffix=")" delimiter=" ">
