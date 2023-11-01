@@ -63,7 +63,7 @@
     },
     {
       "id": "11736692/BRHMASW5",
-      "string": "Voltaire. <i>Oeuvres complètes</i>. Vol. 19, Dictionnaire philosophique portatif. Paris: Garnier, 1879."
+      "string": "Voltaire. <i>Dictionnaire philosophique portatif</i>. <i>Oeuvres complètes</i>. Vol. 19,  Paris: Garnier, 1879."
     }
   ],
   "Encyclopaedia/Dictionary": [
@@ -83,7 +83,7 @@
   "Exhibition": [
     {
       "id": "11736692/6DRQ5UJ5",
-      "string": "Beuys, Joseph. <i>‘Wie man dem toten Hasen die Bilder erklärt’</i>. Düsseldorf: Galerie Schmela, 1965."
+      "string": "Beuys, Joseph. <i>‘Wie man dem toten Hasen die Bilder erklärt’</i>. Exhibited at Galerie Schmela, Düsseldorf 1965."
     }
   ],
   "Journal Article": [
@@ -139,7 +139,7 @@
     },
     {
       "id": "11736692/ECCF7HG7",
-      "string": "Der Velde, Carl Franz van. ‘Arwed Gyllensterna: A tale of the early part of the eighteenth century’. <i>The Literary Gazette and Journal of Belles Lettres, Arts, Sciences &#38;c</i> (1827): 120."
+      "string": "Velde, Carl Franz van der. ‘Arwed Gyllensterna: A tale of the early part of the eighteenth century’. <i>The Literary Gazette and Journal of Belles Lettres, Arts, Sciences &#38;c</i> (1827): 120."
     }
   ],
   "Newspaper Article from a Website from one, two or more Authors": [],
