@@ -473,6 +473,14 @@
                 <date-part name="year" />
               </date>
             </if>
+            <!-- Use full date for hearings -->
+            <else-if type="bill" match="any">
+              <date variable="issued" prefix=". " delimiter=" ">
+                <date-part name="day" />
+                <date-part name="month" />
+                <date-part name="year" />
+              </date>
+            </else-if>
             <else>
               <date variable="issued" prefix=", ">
                 <date-part name="year" />
