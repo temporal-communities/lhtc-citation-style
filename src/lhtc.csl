@@ -194,16 +194,6 @@
       </choose>
     </group>
   </macro>
-  <macro name="title-translation">
-    <!-- Title translation in parentheses if available for current locale -->
-    <choose>
-      <if variable="title-{{LOCALE}}">
-        <group prefix=" [" suffix="]" delimiter=" ">
-          <text variable="title-{{LOCALE}}" />
-        </group>
-      </if>
-    </choose>
-  </macro>
   <macro name="title">
     <choose>
       <if variable="title" match="none">
@@ -217,7 +207,6 @@
         type="bill book graphic legislation motion_picture song report thesis personal_communication"
         match="any">
         <text variable="title" text-case="title" font-style="italic" />
-        <text macro="title-translation" />
         <group prefix=" (" suffix=")" delimiter=" ">
           <text term="version" />
           <text variable="version" />
@@ -228,7 +217,6 @@
           <if variable="reviewed-title">
             <group delimiter=". ">
               <text variable="title" text-case="title" quotes="true" />
-              <text macro="title-translation" />
               <group delimiter=", ">
                 <text variable="reviewed-title" text-case="title" font-style="italic"
                   prefix="Review of " />
@@ -252,11 +240,9 @@
       </else-if>
       <else-if type="legal_case interview patent" match="any">
         <text variable="title" />
-        <text macro="title-translation" />
       </else-if>
       <else>
         <text variable="title" text-case="title" quotes="true" />
-        <text macro="title-translation" />
       </else>
     </choose>
   </macro>
@@ -531,15 +517,6 @@
       <date-part name="day" prefix=" " />
     </date>
   </macro>
-  <macro name="collection-title-translation">
-    <!-- Collection title translation in parentheses if available for current locale -->
-    <choose>
-      <if variable="collection-title-{{LOCALE}}">
-        <group prefix=" [" suffix="]" delimiter=" ">
-          <text variable="collection-title-{{LOCALE}}" />
-        </group>
-      </if>
-    </choose>
   </macro>
   <macro name="collection-title">
     <choose>
@@ -548,14 +525,12 @@
           <if match="none" is-numeric="collection-number">
             <group delimiter=", ">
               <text variable="collection-title" text-case="title" />
-              <text macro="collection-title-translation" />
               <text variable="collection-number" />
             </group>
           </if>
           <else>
             <group delimiter=" ">
               <text variable="collection-title" text-case="title" />
-              <text macro="collection-title-translation" />
               <text variable="collection-number" />
             </group>
           </else>
