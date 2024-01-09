@@ -12,32 +12,39 @@ config.templates.add(templateName, template)
 // Load test data
 // Relative to script directory
 const data = readFileSync("./test/export.json", "utf8")
-// Access data.items and re-stringify (necessary for Zotero CSL API)
-const dataString = JSON.stringify(JSON.parse(data).items)
 
-const cite = new Cite(dataString)
-const bib = cite
-  .format("bibliography", {
-    format: "html",
-    template: templateName,
-    lang: "en",
-    asEntryArray: true,
-  })
-  // Extract content of csl-entry div
-  .map((entry) => {
-    const div = entry[1].match(/<div.*?>(.*?)<\/div>/)
-    entry[1] = div[1]
-    return entry
-  })
+// Generate a bibliography for each item individually to avoid omissions due to repeated authors
+const items = JSON.parse(data).items
 
-// Convert to object with first element as id
-const bibObj = Object.fromEntries(bib)
-console.debug({ bibObj })
+// Object to collect bibliographies
+const bibObj = {}
+
+for (const item of items) {
+  // Re-stringify (necessary for Zotero CSL API)
+  const jsonString = JSON.stringify(item)
+
+  const cite = new Cite(jsonString)
+  const bib = cite
+    .format("bibliography", {
+      format: "html",
+      template: templateName,
+      lang: "en",
+      asEntryArray: true,
+    })
+    // Extract content of csl-entry div
+    .map((entry) => {
+      const div = entry[1].match(/<div.*?>(.*?)<\/div>/)
+      entry[1] = div[1]
+      return entry
+    })
+
+  // Add item to bibObj, using the item's id as key
+  const [itemId, bibString] = bib[0]
+  bibObj[itemId] = bibString
+}
 
 // Read reference strings
 const referenceStrings = JSON.parse(readFileSync("./test/reference-strings.json", "utf8"))
-
-// Regex to delete surrounding <span> tags
 
 describe("Bibliography", function () {
   for (const [category, refObjs] of Object.entries(referenceStrings)) {
