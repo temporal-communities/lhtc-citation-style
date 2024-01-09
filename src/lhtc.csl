@@ -384,6 +384,7 @@
             <text variable="section" />
           </group>
         </group>
+        <text variable="page" prefix=": " />
       </if>
       <else-if type="article-journal">
         <choose>
