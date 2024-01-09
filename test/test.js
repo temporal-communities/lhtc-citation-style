@@ -4,7 +4,7 @@ import { readFileSync } from "fs"
 
 // Load LHTC style
 const templateName = "lhtc"
-const template = readFileSync("./dist/lhtc-en.csl", "utf8")
+const template = readFileSync("./dist/lhtc.csl", "utf8")
 
 const config = Cite.plugins.config.get("@csl")
 config.templates.add(templateName, template)

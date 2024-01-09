@@ -7,9 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "build": "node src/index.js",
-    "test": "npm run build && npx mocha",
-    "test:inline": "npm run build && npx mocha --inline-diffs",
+    "build": "make",
+    "test": "make && npx mocha",
+    "test:inline": "make && npx mocha --inline-diffs",
     "test:fetch": "./test/fetch-collection.sh > test/export.json"
   },
   "author": "",
