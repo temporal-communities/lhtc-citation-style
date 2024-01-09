@@ -468,11 +468,19 @@
       <if variable="issued">
         <group delimiter=" ">
           <choose>
-            <if type="article-journal article-newspaper" match="any">
+            <if type="article-journal" match="any">
               <date variable="issued" prefix=" (" suffix=")">
                 <date-part name="year" />
               </date>
             </if>
+            <!-- Use full date in parentheses for newspaper/magazine articles  -->
+            <else-if type="article-newspaper article-magazine" match="any">
+              <date variable="issued" prefix=" (" suffix=")" delimiter=" ">
+                <date-part name="day" />
+                <date-part name="month" />
+                <date-part name="year" />
+              </date>
+            </else-if>
             <!-- Use full date for hearings -->
             <else-if type="bill" match="any">
               <date variable="issued" prefix=". " delimiter=" ">
@@ -625,7 +633,7 @@
           <text macro="day-month" />
         </group>
       </else-if>
-      <else-if type="article-newspaper article-magazine personal_communication" match="any">
+      <else-if type="personal_communication" match="any">
         <date variable="issued" form="text" prefix=", " />
       </else-if>
       <else-if type="patent">
