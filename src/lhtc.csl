@@ -462,7 +462,7 @@
             <else-if type="bill" match="any">
               <text macro="day-month-year" prefix=". " />
             </else-if>
-            <else-if type="post-weblog" match="any">
+            <else-if type="personal_communication post-weblog" match="any">
               <text macro="day-month-year" prefix=", " />
             </else-if>
             <else>
@@ -603,9 +603,6 @@
           <text variable="event-place" />
           <text macro="day-month" />
         </group>
-      </else-if>
-      <else-if type="personal_communication" match="any">
-        <date variable="issued" form="text" prefix=", " />
       </else-if>
       <else-if type="patent">
         <group delimiter=", " prefix=", ">
