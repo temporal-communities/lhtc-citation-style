@@ -627,10 +627,10 @@
       </else-if>
       <else-if type="article-journal" match="any" />
       <else>
-        <group prefix=". " delimiter=". ">
+        <group prefix=". ">
           <choose>
             <if type="thesis">
-              <text variable="genre" text-case="capitalize-first" />
+              <text variable="genre" text-case="capitalize-first" suffix=", " />
             </if>
           </choose>
           <text macro="publisher" />
