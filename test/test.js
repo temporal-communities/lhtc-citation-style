@@ -52,7 +52,8 @@ describe("Bibliography", function () {
       for (const obj of refObjs) {
         const id = obj.id
         const string = obj.string
-        const heading = `${id}: ${string.split(".")[0]}`
+        const cslItem = items.find((item) => item.id === id)
+        const heading = `${cslItem.type} ${id}: ${string.split(".")[0]}`
 
         // If --verbose
         if (process.argv.includes("--verbose")) {
