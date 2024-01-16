@@ -15,15 +15,23 @@
       <name>Rebecca Hardie</name>
       <email>r.hardie@fu-berlin.de</email>
     </contributor>
+    <contributor>
+      <name>Lilly Welz</name>
+      <email>l.welz@fu-berlin.de</email>
+    </contributor>
+    <contributor>
+      <name>Miguel Araneda Lavín</name>
+      <email>m.araneda.lavin@fu-berlin.de</email>
+    </contributor>
     <category citation-format="author-date" />
     <category field="generic-base" />
-    <summary>Citation style of the Living Handbook of Temporal Communities</summary>
+    <summary>Citation style of the Living Handbook of Temporal Communities at EXC 2020</summary>
     <updated>{{TIMESTAMP}}</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/4.0/">
       This work is adapted from chicago-author-date.csl
       (https://github.com/citation-style-language/styles/blob/master/chicago-author-date.csl) by
       Julian Onions, used under CC BY-SA 3.0.
-      This work is licensed under CC BY-SA 4.0 by Viktor J. Illmer and Rebecca Hardie.
+      This work is licensed under CC BY-SA 4.0 by its authors.
     </rights>
   </info>
   <locale xml:lang="en">
@@ -462,7 +470,7 @@
             <else-if type="bill" match="any">
               <text macro="day-month-year" prefix=". " />
             </else-if>
-            <else-if type="motion_picture personal_communication post-weblog" match="any">
+            <else-if type="motion_picture personal_communication post-weblog speech" match="any">
               <text macro="day-month-year" prefix=", " />
             </else-if>
             <else>
@@ -601,7 +609,6 @@
             <text macro="event" />
           </group>
           <text variable="event-place" />
-          <text macro="day-month" />
         </group>
       </else-if>
       <else-if type="patent">

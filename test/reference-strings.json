@@ -9,24 +9,10 @@
       "string": "Flanders, Julia/Jannidis, Fotis. ‘Data Modeling’. In <i>A New Companion to Digital Humanities</i>, ed. Susan Schreibman/Ray Siemens/John Unsworth. Chichester: Wiley Blackwell, 2016, 229–237. https://doi.org/10.1002/9781118680605.ch16."
     }
   ],
-  "Audiovisual Work": [
-    {
-      "id": "11736692/9X28QEUV",
-      "string": "Liu, Alan. <i>Abschlusskeynote DHd2020 | Humans in the Loop</i>. 19 March 2020. YouTube. https://www.youtube.com/watch?v=lnfeOUBCi3s."
-    },
-    {
-      "id": "11736692/57N9A7KG",
-      "string": "Bode, Katherine. <i>Data beyond representation: From computational modelling to performative materiality. 10 January 2020</i>. Katherine Bode. https://katherinebode.wordpress.com/home/mla-convention-2020/."
-    },
-    {
-      "id": "11736692/QY4FYWHL",
-      "string": "Gardner, Howard. Project Zero. <i>Howard Gardner Discusses Multiple Intelligences - Blackboard BbWorld 2016 HD</i>. 19 July 2016. Youtube. https://www.youtube.com/watch?v=8N2pnYne0ZA&t=299s."
-    }
-  ],
   "Blog Post/Website": [
     {
       "id": "11736692/FTIXIMP9",
-      "string": "Williams, Howard M. R., ‘The Plague of Terms: The “Anglo-Saxons”’. <i>ARCHAEODeath: Death &amp; Memory – Past &amp; Present</i>, 14 February 2015. https://howardwilliamsblog.wordpress.com/2015/02/14/the-plague-of-terms-the-anglo-saxons/."
+      "string": "Williams, Howard M. R. ‘The Plague of Terms: The “Anglo-Saxons”’. <i>Archaeodeath</i>, 14 February 2015. https://howardwilliamsblog.wordpress.com/2015/02/14/the-plague-of-terms-the-anglo-saxons/."
     },
     {
       "id": "11736692/N8I3A2UN",
@@ -34,7 +20,7 @@
     },
     {
       "id": "11736692/3JGMC2B3",
-      "string": "Porck, Thijs. ‘Dutch Anglo-Saxonist website changes its name’, 14 September 2019. https://thijsporck.com/2019/09/14/boaring-medievalist/."
+      "string": "Porck, Thijs. ‘Dutch Anglo-Saxonist Website Changes Its Name’. <i>Thijs Porck</i>, 14 September 2019. https://thijsporck.com/2019/09/14/boaring-medievalist/."
     }
   ],
   "Book or Single Volume Edition": [
@@ -50,13 +36,21 @@
   "Book Chapter": [
     {
       "id": "11736692/VNESZ64J",
-      "string": "Bogdanow, Fanni. ‘The Suite du Merlin and the Post-Vulgate Roman du Graal’. In <i>Arthurian Literature in the Middle Ages: A Collaborative History</i>, ed. Roger Sherman Loomis. 3rd edn. Oxford: Clarendon Press, 1959, 325–335."
+      "string": "Bogdanow, Fanni. ‘The Suite du Merlin and the Post-Vulgate Roman du Graal’. In <i>Arthurian Literature in the Middle Ages: A Collaborative History</i>, ed. Roger Sherman Loomis, 3rd edn. Oxford: Clarendon Press, 1959, 325–335."
     }
   ],
   "Conference Presentation": [
     {
+      "id": "11736692/9X28QEUV",
+      "string": "Liu, Alan. ‘Abschlusskeynote DHd2020 | Humans in the Loop’. Presented at the DHd2020, Paderborn, 19 March 2020. https://www.youtube.com/watch?v=lnfeOUBCi3s."
+    },
+    {
       "id": "11736692/57N9A7KG",
-      "string": "Bode, Katherine. ‘Data beyond Representation: From Computational Modelling to Performative Materiality’. Presented at the MLA Convention, Seattle, January 10, 2020. https://katherinebode.wordpress.com/home/mla-convention-2020/."
+      "string": "Bode, Katherine. ‘Data beyond Representation: From Computational Modelling to Performative Materiality’. Presented at the MLA Convention, Seattle, 10 January 2020. https://katherinebode.wordpress.com/home/mla-convention-2020/."
+    },
+    {
+      "id": "11736692/QY4FYWHL",
+      "string": "Gardner, Howard. ‘Howard Gardner Discusses Multiple Intelligences - Blackboard BbWorld 2016 HD’. Project Zero, 19 July 2016. https://www.youtube.com/watch?v=8N2pnYne0ZA."
     }
   ],
   "Dissertation/Thesis": [
@@ -66,7 +60,7 @@
     },
     {
       "id": "11736692/4JCCZXK3",
-      "string": "Vejmelka, Marcel. <i>Das Werk Jorge Amados in der DDR und der BRD: Ein Vergleich der Rezeption und der Übersetzungen</i>. PhD Dissertation, Humboldt Universität zu Berlin, 2000."
+      "string": "Vejmelka, Marcel. <i>Das Werk Jorge Amados in der DDR und der BRD: Ein Vergleich der Rezeption und der Übersetzungen</i>. PhD Dissertation, Humboldt-Universität zu Berlin, 2000."
     },
     {
       "id": "11736692/KMRNVMCI",
@@ -76,11 +70,11 @@
   "Multivolume Edition": [
     {
       "id": "11736692/3X5X64NN",
-      "string": "Hofmannsthal, Hugo von. <i>Sämtliche Werke</i>. Ed. and trans. Rudolf Hirsch et al. 40 vols. Frankfurt a. M.: Fischer, 1986."
+      "string": "Hofmannsthal, Hugo von. <i>Sämtliche Werke</i>. Ed. Rudolf Hirsch/Anne Bohnenkamp/Mathias Mayer/Christoph Perels/Edward Reichel/Heinz Rölleke. 40 vols. Frankfurt am Main: Fischer, 1986."
     },
     {
       "id": "11736692/BRHMASW5",
-      "string": "Voltaire. <i>Dictionnaire philosophique portatif</i>. <i>Oeuvres complètes</i>. Vol. 19,  Paris: Garnier, 1879."
+      "string": "Voltaire. <i>Dictionnaire philosophique portatif</i>. Vol. 19. Oeuvres complètes. Paris: Garnier, 1879."
     }
   ],
   "Encyclopaedia Entry": [
@@ -90,19 +84,19 @@
     },
     {
       "id": "11736692/BR82L3DE",
-      "string": "Weimar, Klaus. ‘Literatur’. In <i>Reallexikon der deutschen Literaturwissenschaft</i>, Vol. 2. Ed. Georg Braungart et al. Berlin: de Gruyter, 2007, 443–448."
+      "string": "Weimar, Klaus. ‘Literatur’. In <i>Reallexikon der deutschen Literaturwissenschaft</i>, ed. Georg Braungart/Harald Fricke/Klaus Grubmüller/Jan-Dirk Müller/Friedrich Vollhardt/Klaus Weimar, 3rd edn. Berlin: De Gruyter, 2007, 443–448."
     }
   ],
   "Exhibition": [
     {
       "id": "11736692/6DRQ5UJ5",
-      "string": "Beuys, Joseph. <i>‘Wie man dem toten Hasen die Bilder erklärt’</i>. Exhibited at Galerie Schmela, Düsseldorf 1965."
+      "string": "Beuys, Joseph. ‘Wie man dem toten Hasen die Bilder erklärt’. Performance presented at the Galerie Schmela, Düsseldorf, 1965."
     }
   ],
   "Journal Article": [
     {
       "id": "11736692/BSRSW6QY",
-      "string": "Χατζηβασιλείου, Βαγγέλης. ‘Το μεσοπολεμικό μυθιστόρημα’ (‘The Interwar Novel’). <i>The Books’ Journal</i>, 101 (2019): 96."
+      "string": "Χατζηβασιλείου, Βαγγέλης. ‘Το μεσοπολεμικό μυθιστόρημα [The Interwar Novel]’. <i>The Books’ Journal</i>, 101 (2019): 96. https://www.academia.edu/40551110."
     },
     {
       "id": "11736692/M2WZGXKS",
@@ -110,21 +104,11 @@
     },
     {
       "id": "11736692/7G48L3KF",
-      "string": "Cook, Robert F. ‘Baudouin de Sebourc: Un poème édifiant?’. <i>Olifant</i>, 14 (1989): 115–135."
+      "string": "Cook, Robert F. ‘Baudouin de Sebourc: Un poème édifiant?’ <i>Olifant</i>, 14 (1989): 115–135. https://scholarworks.iu.edu/journals/index.php/olifant/article/view/19388/25519."
     },
     {
       "id": "11736692/Y84FEW63",
       "string": "So, Richard Jean. ‘“All Models Are Wrong”’. <i>PMLA</i>, 132/3 (2017): 668–673. https://doi.org/10.1632/pmla.2017.132.3.668."
-    }
-  ],
-  "Letter": [
-    {
-      "id": "11736692/7Z4TDR7M",
-      "string": "Strausfeld, Michi. <i>Letter of Michi Strausfeld to Jürgen Dormagen</i>, 9 September 1997. Siegfried-Unseld-Archiv Suhrkamp, Deutsches Literaturarchiv Marbach."
-    },
-    {
-      "id": "11736692/2NKGUT8E",
-      "string": "Pitman, Robert. <i>Robert Pitman’s Correspondence with Henry Russel jr</i>., 2 March 1840. Bodleian Library, Oxford."
     }
   ],
   "Monograph": [
@@ -134,7 +118,7 @@
     },
     {
       "id": "11736692/6HEERZST",
-      "string": "Frisch, Karl von. <i>Tanzsprache und Orientierung der Bienen</i>. Berlin: Springer, 2013. https://doi.org/10.1007/978-3-642-94916-6."
+      "string": "Frisch, Karl von. <i>Tanzsprache und Orientierung der Bienen</i>. Berlin/Heidelberg: Springer, 1965. https://doi.org/10.1007/978-3-642-94916-6."
     }
   ],
   "Newspaper Article in Print from one, two or more Authors": [
@@ -144,15 +128,15 @@
     },
     {
       "id": "11736692/NIPZ523E",
-      "string": "Meade, Marion. ‘Lights! Camera! Women!’ <i>The New York Times</i> (25 April 1971): 11."
+      "string": "Meade, Marion. ‘Lights! Camera! Women!’ <i>The New York Times</i> (25 April 1971), sec. D: 11."
     },
     {
       "id": "11736692/4VZNTNHM",
-      "string": "Ilitschewski, Alexander/Reif, Ruth Renée. ‘“Die bittere Ironie utopischer Ideen”: Alexander Ilitschewski über “Der Perser” sowie über Religion, Fanatismus und Ressentiment’. <i>Neue Zürcher Zeitung</i> (13 February 2016): 27–28."
+      "string": "Reif, Ruth Renée. ‘“Die bittere Ironie utopischer Ideen”. Alexander Ilitschewski über “Der Perser” sowie über Religion, Fanatismus und Ressentiment’. <i>Neue Zürcher Zeitung</i> (13 February 2016): 27–28."
     },
     {
       "id": "11736692/ECCF7HG7",
-      "string": "Velde, Carl Franz van der. ‘Arwed Gyllensterna: A tale of the early part of the eighteenth century’. <i>The Literary Gazette and Journal of Belles Lettres, Arts, Sciences &#38;c</i> (1827): 120."
+      "string": "Velde, Carl Franz van der. ‘Arwed Gyllensterna: A Tale of the Early Part of the Eighteenth Century’. <i>The Literary Gazette and Journal of Belles Lettres, Arts, Sciences &#38;c</i> (1827): 120."
     }
   ],
   "Newspaper Article from a Website from one, two or more Authors": [],
@@ -173,7 +157,7 @@
     },
     {
       "id": "11736692/I5DRC9NC",
-      "string": "Börsenverein des Deutschen Buchhandels. <i>Börsenblatt für den Deutschen Buchhandel: Lateinamerikanische Autoren bei claassen</i>. Frankfurt am Main, 1976."
+      "string": "Börsenverein des Deutschen Buchhandels. <i>Börsenblatt für den Deutschen Buchhandel: Lateinamerikanische Autoren bei claassen</i>. 32. Frankfurter Ausgabe. Frankfurt am Main, 1976."
     }
   ],
   "Translated Work": [
