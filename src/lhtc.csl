@@ -462,7 +462,7 @@
             <else-if type="bill" match="any">
               <text macro="day-month-year" prefix=". " />
             </else-if>
-            <else-if type="personal_communication post-weblog" match="any">
+            <else-if type="motion_picture personal_communication post-weblog" match="any">
               <text macro="day-month-year" prefix=", " />
             </else-if>
             <else>
