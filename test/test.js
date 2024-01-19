@@ -20,6 +20,17 @@ const items = JSON.parse(data).items
 const bibObj = {}
 
 for (const item of items) {
+  // Add "Original Date: YYYY" from "note" property as "original-date" property
+  if (item.note) {
+    const originalDate = item.note.match(/Original Date: (\d+)(?:-(\d{2}))?(?:-(\d{2}))?/)
+    if (originalDate) {
+      const dateParts = [originalDate[1], originalDate[2], originalDate[3]]
+        .filter((x) => x)
+        .map((x) => Number(x))
+      item["original-date"] = { "date-parts": dateParts }
+    }
+  }
+
   // Re-stringify (necessary for Zotero CSL API)
   const jsonString = JSON.stringify(item)
 
