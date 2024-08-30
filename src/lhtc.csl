@@ -178,7 +178,11 @@
         <if variable="issued" match="none">
           <group delimiter=" ">
             <text term="accessed" text-case="capitalize-first" />
-            <date variable="accessed" form="text" />
+            <date variable="accessed" delimiter=" ">
+              <date-part name="day" />
+              <date-part name="month" />
+              <date-part name="year" />
+            </date>
           </group>
         </if>
       </choose>
