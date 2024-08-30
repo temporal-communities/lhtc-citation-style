@@ -3,9 +3,9 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="en-GB"
   demote-non-dropping-particle="display-and-sort" page-range-format="expanded">
   <info>
-    <title>Living Handbook of Temporal Communities (LHTC)</title>
+    <title>EXC 2020 Temporal Communities</title>
+    <summary>Citation style for Articulations, EXC 2020’s peer-reviewed publishing platform</summary>
     <id>7cc7cb3a-6413-44a8-a744-7f54c1be889a</id>
-    <!-- <link href="http://www.zotero.org/styles/chicago-author-date" rel="self" /> -->
     <link href="https://wikis.fu-berlin.de/display/exctc/LHTC%3A+Zotero" rel="documentation" />
     <author>
       <name>Viktor J. Illmer</name>
@@ -25,8 +25,7 @@
     </contributor>
     <category citation-format="author-date" />
     <category field="generic-base" />
-    <summary>Citation style of the Living Handbook of Temporal Communities at EXC 2020</summary>
-    <updated>2024-01-19T12:25:06Z</updated>
+    <updated>2024-08-30T10:49:47Z</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/4.0/">
       This work is adapted from chicago-author-date.csl
       (https://github.com/citation-style-language/styles/blob/master/chicago-author-date.csl) by
@@ -179,7 +178,11 @@
         <if variable="issued" match="none">
           <group delimiter=" ">
             <text term="accessed" text-case="capitalize-first" />
-            <date variable="accessed" form="text" />
+            <date variable="accessed" delimiter=" ">
+              <date-part name="day" />
+              <date-part name="month" />
+              <date-part name="year" />
+            </date>
           </group>
         </if>
       </choose>
@@ -486,7 +489,8 @@
         <text variable="status" text-case="capitalize-first" />
       </else-if>
       <else>
-        <text term="no date" form="short" />
+        <text term="no date" form="short" prefix=" " />
+        <text variable="year-suffix" form="long" prefix="-" />
       </else>
     </choose>
   </macro>
@@ -657,8 +661,7 @@
               <text macro="date-in-text" />
             </group>
           </if>
-          <!---comma
-          before forthcoming and n.d.-->
+          <!---comma before forthcoming and n.d.-->
           <else>
             <group delimiter=", ">
               <text macro="contributors-short" />
