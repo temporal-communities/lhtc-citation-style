@@ -75,10 +75,12 @@
     {
       "id": "11736692/3X5X64NN",
       "string": "Hofmannsthal, Hugo von. <i>Sämtliche Werke</i>. Ed. Rudolf Hirsch/Anne Bohnenkamp/Mathias Mayer/Christoph Perels/Edward Reichel/Heinz Rölleke. 40 vols. Frankfurt am Main: Fischer, 1986."
-    },
+    }
+  ],
+  "Dictionary Entry": [
     {
       "id": "11736692/BRHMASW5",
-      "string": "Voltaire. <i>Dictionnaire philosophique portatif</i>. Vol. 19. Oeuvres complètes. Paris: Garnier, 1879."
+      "string": "Voltaire. ‘littérature’. In <i>Dictionnaire philosophique portatif</i>. Vol. 19. Oeuvres complètes. Paris: Garnier, 1878."
     }
   ],
   "Encyclopaedia Entry": [
@@ -88,7 +90,7 @@
     },
     {
       "id": "11736692/BR82L3DE",
-      "string": "Weimar, Klaus. ‘Literatur’. In <i>Reallexikon der deutschen Literaturwissenschaft</i>, ed. Georg Braungart/Harald Fricke/Klaus Grubmüller/Jan-Dirk Müller/Friedrich Vollhardt/Klaus Weimar, 3rd edn. Berlin: De Gruyter, 2007, 443–448."
+      "string": "Weimar, Klaus. ‘Literatur’. In <i>Reallexikon der deutschen Literaturwissenschaft</i>, ed. Georg Braungart/Harald Fricke/Klaus Grubmüller/Jan-Dirk Müller/Friedrich Vollhardt/Klaus Weimar, 3rd edn. Berlin/New York: De Gruyter, 2007, 443–448."
     }
   ],
   "Exhibition": [
@@ -132,7 +134,7 @@
     },
     {
       "id": "11736692/NIPZ523E",
-      "string": "Meade, Marion. ‘Lights! Camera! Women!’ <i>The New York Times</i> (25 April 1971), sec. D: 11."
+      "string": "Meade, Marion. ‘Lights! Camera! Women!’ <i>The New York Times</i> (25 April 1971), sec. D. https://www.nytimes.com/1971/04/25/archives/lights-camera-women.html."
     },
     {
       "id": "11736692/4VZNTNHM",
@@ -140,7 +142,7 @@
     },
     {
       "id": "11736692/ECCF7HG7",
-      "string": "Velde, Carl Franz van der. ‘Arwed Gyllensterna: A Tale of the Early Part of the Eighteenth Century’. <i>The Literary Gazette and Journal of Belles Lettres, Arts, Sciences &#38;c</i> (1827): 120."
+      "string": "Velde, Carl Franz van der. ‘Arwed Gyllensterna: A Tale of the Early Part of the Eighteenth Century’. <i>The Literary Gazette and Journal of Belles Lettres, Arts, Sciences &#38;c</i>. London (1827): 120."
     }
   ],
   "Newspaper Article from a Website from one, two or more Authors": [],
