@@ -25,7 +25,7 @@
     </contributor>
     <category citation-format="author-date" />
     <category field="generic-base" />
-    <updated>2024-08-30T10:49:47Z</updated>
+    <updated>2024-09-03T17:43:48Z</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/4.0/">
       This work is adapted from chicago-author-date.csl
       (https://github.com/citation-style-language/styles/blob/master/chicago-author-date.csl) by
@@ -353,10 +353,8 @@
         <choose>
           <if variable="page">
             <group prefix=", ">
-              <!-- <text variable="volume" suffix=":" /> -->
-              <group delimiter=" ">
-                <text variable="page" />
-              </group>
+              <text variable="volume" suffix=":"/>
+              <text variable="page"/>
             </group>
           </if>
         </choose>

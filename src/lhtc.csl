@@ -353,10 +353,8 @@
         <choose>
           <if variable="page">
             <group prefix=", ">
-              <!-- <text variable="volume" suffix=":" /> -->
-              <group delimiter=" ">
-                <text variable="page" />
-              </group>
+              <text variable="volume" suffix=":"/>
+              <text variable="page"/>
             </group>
           </if>
         </choose>
